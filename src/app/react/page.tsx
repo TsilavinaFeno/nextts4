@@ -6,7 +6,7 @@ const Page: React.FC = () => {
         <>
             <Header name={'ITCA'} firstname='Ankadikely' age={26} />
             <main>
-                <h2>Home</h2>
+                <h2>Home </h2>
                 <p>Welcome to my website!</p>
             </main>
         </>
