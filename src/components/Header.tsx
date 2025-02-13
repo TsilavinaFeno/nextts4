@@ -1,9 +1,15 @@
 import React from 'react';
 
-const Header: React.FC = () => {
+interface HeaderProps {
+    name: string;
+    firstname?: string;
+    age?: number;
+}
+
+const Header: React.FC<HeaderProps> = ({name , firstname , age}) => {
     return (
         <header>
-            <h1>Welcome to My Website</h1>
+            <h1>Welcome to {name} {firstname} Website with {age} year</h1>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>

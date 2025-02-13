@@ -3,11 +3,13 @@ import React from 'react';
 
 const Page: React.FC = () => {
     return (
-        <div>
-            <Header />
-            <h1>Welcome to My Page</h1>
-            <p>This is a sample page created with React and TypeScript.</p>
-        </div>
+        <>
+            <Header name={'ITCA'} firstname='Ankadikely' age={26} />
+            <main>
+                <h2>Home</h2>
+                <p>Welcome to my website!</p>
+            </main>
+        </>
     );
 };
 
